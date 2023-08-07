@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  Header, Rockets, Missions, Profile,
+  NavLink, Rockets, Missions, Profile,
 } from './containers';
 
 function App() {
   return (
     <div>
-      <Header />
+      <NavLink />
       <Rockets />
       <Missions />
       <Profile />
