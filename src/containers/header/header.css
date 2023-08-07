@@ -1,0 +1,22 @@
+.app__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.app__header-logo_box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.app__header-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.app__header-title {
+    font-size: 2rem;
+}
