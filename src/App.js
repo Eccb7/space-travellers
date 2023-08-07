@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import {
   NavBar, Rockets, Missions, Profile,
 } from './containers';
+import './index.css';
 
 function App() {
   return (
