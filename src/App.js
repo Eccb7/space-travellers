@@ -1,15 +1,18 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import {
-  NavLink, Rockets, Missions, Profile,
+  NavBar, Rockets, Missions, Profile,
 } from './containers';
 
 function App() {
   return (
     <div>
-      <NavLink />
-      <Rockets />
-      <Missions />
-      <Profile />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="/Missions" element={<Missions />} />
+        <Route path="/MyProfile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
