@@ -1,2 +1,2 @@
+// eslint-disable-next-line import/prefer-default-export
 export { default as MissionFeature } from './missionFeature/MissionFeature';
-export { default as RocketFeature } from './rocketFeature/RocketFeature';
