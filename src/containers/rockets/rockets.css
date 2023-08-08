@@ -1,34 +1,23 @@
-/* rockets.css */
 .rockets-container {
-  /* text-align: center; */
   padding: 20px;
 }
 
 .rocket-list {
-  list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
 }
 
 .rocket-item {
-  border: 1px solid #ccc;
-  border-radius: 8px;
   padding: 20px;
   margin: 10px;
-
-  /* max-width: 600px; */
   width: 100%;
   display: flex;
   align-items: center;
-
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .rocket-item img {
-  width: 150px;
+  width: 290px;
   height: auto;
   margin-right: 20px;
 }
@@ -58,7 +47,7 @@
 }
 
 .rocket-info button[type="button"] {
-  background-color: rgb(95, 95, 223);
+  background-color: var(--color-darkblue);
   color: white;
   padding: 8px 16px;
   border: none;
@@ -66,9 +55,8 @@
   cursor: pointer;
 }
 
-/* Style Reserved button */
 .reservation-info button[type="button"][disabled] {
-  background-color: rgba(5, 144, 146, 0.841);
+  background-color: var(--color-blue-2);
   color: white;
   padding: 4px 8px;
   border: none;
@@ -78,10 +66,9 @@
 
 .rocket-info button[type="submit"] {
   background-color: rgb(255, 255, 255);
-  color: rgb(7, 7, 7);
+  color: var(--color-grey-2);
   padding: 8px 16px;
-
-  /* border: none; */
+  border: 1px solid var(--color-grey-2);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
