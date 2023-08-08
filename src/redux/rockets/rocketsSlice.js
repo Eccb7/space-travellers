@@ -12,8 +12,8 @@ export const fetchData = createAsyncThunk('rockets/fetchData', async () => {
   const response = await axios.get(rocketURL);
   return response.data.map((obj) => ({
     id: obj.id,
-    name: obj.rocket_name,
-    type: obj.rocket_type,
+    name: obj.name,
+    type: obj.type,
     description: obj.description,
     image: obj.flickr_images[0],
     wikipedia: obj.wikipedia,
