@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { reduxLogger } from 'redux-logger';
+import { createLogger } from 'redux-logger';
 import missionReducer from './missions/missionSlice';
 
-const logger = reduxLogger.createLogger();
+const logger = createLogger();
 const store = configureStore({
   reducer: {
     mission: missionReducer,
@@ -10,4 +10,4 @@ const store = configureStore({
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
-module.exports = store;
+export default store;
