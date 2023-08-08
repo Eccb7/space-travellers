@@ -24,5 +24,12 @@ li {
 }
 
 a {
+  color: var(--color-blue-1);
   text-decoration: none;
+}
+
+a:active,
+a:focus {
+  color: var(--color-darkblue);
+  text-decoration: underline;
 }
