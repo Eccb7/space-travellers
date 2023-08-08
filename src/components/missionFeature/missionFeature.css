@@ -1,0 +1,6 @@
+.app_mission-title {
+  font-weight: 600;
+  display: flex;
+  border: none;
+  border-top: 1px solid var(--color-grey-2);
+}

@@ -16,19 +16,23 @@ function Missions() {
   if (error) return (<p>{error}</p>);
   return (
     <table>
-      <tr>
-        <th>Mission</th>
-        <th>Description</th>
-      </tr>
-      {
-        missions.map((mission) => (
-          <MissionFeature
-            key={mission.mission_id}
-            missionName={mission.mission_name}
-            missionDesc={mission.description}
-          />
-        ))
-      }
+      <thead>
+        <tr>
+          <th>Mission</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          missions.map((mission) => (
+            <MissionFeature
+              key={mission.mission_id}
+              missionName={mission.mission_name}
+              missionDesc={mission.description}
+            />
+          ))
+        }
+      </tbody>
     </table>
   );
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './missionFeature.css';
 
 function MissionFeature({ missionName, missionDesc }) {
   return (
     <tr>
-      <td>{missionName}</td>
+      <td className="app_mission-title">{missionName}</td>
       <td>{missionDesc}</td>
     </tr>
   );
