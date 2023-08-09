@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './missionFeature.css';
 import { useDispatch } from 'react-redux';
-import { joinMission } from '../../redux/missions/missionSlice';
+import { LeaveMission, joinMission } from '../../redux/missions/missionSlice';
 
 function MissionFeature({
   missionId, missionName, missionDesc, missionReserved,
@@ -12,16 +12,20 @@ function MissionFeature({
   const handleJoinMission = (id) => {
     dispatch(joinMission(id));
   };
+  const handleLeaveMission = (id) => {
+    dispatch(LeaveMission(id));
+  };
+
   return (
     <tr>
       <td className="app_mission-title">{missionName}</td>
       <td>{missionDesc}</td>
       {!missionReserved
         ? (<td><span>NOT A MEMBER</span></td>)
-        : (<td><span>Dummy</span></td>)}
+        : (<td><span>Active Member</span></td>)}
       {!missionReserved
         ? (<td><button type="button" title="Join Mission" onClick={() => handleJoinMission(missionId)}>Join Mission</button></td>)
-        : (<td><span>Dummy</span></td>)}
+        : (<td><button type="button" title="Leave Mission" onClick={() => handleLeaveMission(missionId)}>Leave Mission</button></td>)}
     </tr>
   );
 }
