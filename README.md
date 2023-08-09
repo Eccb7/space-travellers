@@ -29,7 +29,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 book-store <a name="about-project"></a>
+# 📖 Space Travellers <a name="about-project"></a>
 
 **"Space Travellers: Explore Rockets and Missions"** is a Redux-powered web app that enables users to discover SpaceX rockets, join missions, and manage their selections in a personalized profile section. Built with React, it offers an immersive space exploration journey.
 ## 🛠 Built With <a name="built-with"></a>
@@ -57,7 +57,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Demo of Linters**
-- **Demo of book-store**
+- **Demo of Space Travellers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
