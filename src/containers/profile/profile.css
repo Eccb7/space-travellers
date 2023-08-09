@@ -21,3 +21,8 @@
 .rocketdata {
   padding: 10px;
 }
+
+.app_mission_profile-column {
+  font-weight: normal;
+  font-size: 1.5rem;
+}

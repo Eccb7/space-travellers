@@ -1,0 +1,9 @@
+.app_mission_profile-row {
+  border: none;
+  text-align: left;
+}
+
+.app_mission_profile-title {
+  border: 1px solid var(--color-grey-2);
+  padding: 0.7rem 1rem;
+}

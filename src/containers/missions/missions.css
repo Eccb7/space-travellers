@@ -1,15 +1,25 @@
-table {
+.app_mission-table {
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin: 2rem auto;
+  border: 1px solid var(--color-grey-2);
 }
 
-td,
-th {
+.app_mission-table td,
+.app_mission-table th {
   border: 1px solid var(--color-grey-2);
   text-align: left;
   padding: 1rem;
 }
 
-tr:nth-child(even) {
+.app_mission-table thead th {
+  background-color: #fff;
+}
+
+.app_mission-table tr:nth-child(odd) {
   background-color: var(--color-grey-1);
+}
+
+.app_mission-table td:nth-last-of-type(2) {
+  width: 150px;
 }
