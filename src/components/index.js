@@ -1,2 +1,2 @@
-// eslint-disable-next-line import/prefer-default-export
+export { default as MissionProfile } from './missionProfile/MissionProfile';
 export { default as MissionFeature } from './missionFeature/MissionFeature';
