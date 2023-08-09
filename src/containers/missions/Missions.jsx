@@ -17,13 +17,13 @@ function Missions() {
   if (loading) return (<p>Please wait...</p>);
   if (error) return (<p>{error}</p>);
   return (
-    <table>
+    <table className="app_mission-table">
       <thead>
         <tr>
           <th>Mission</th>
           <th>Description</th>
           <th>Status</th>
-          <th>.</th>
+          <th>{' '}</th>
         </tr>
       </thead>
       <tbody>

@@ -21,11 +21,11 @@ function MissionFeature({
       <td className="app_mission-title">{missionName}</td>
       <td>{missionDesc}</td>
       {!missionReserved
-        ? (<td><span>NOT A MEMBER</span></td>)
-        : (<td><span>Active Member</span></td>)}
+        ? (<td><span className="app_mission-status app_mission-status_nomember">NOT A MEMBER</span></td>)
+        : (<td><span className="app_mission-status app_mission-status_member">Active Member</span></td>)}
       {!missionReserved
-        ? (<td><button type="button" title="Join Mission" onClick={() => handleJoinMission(missionId)}>Join Mission</button></td>)
-        : (<td><button type="button" title="Leave Mission" onClick={() => handleLeaveMission(missionId)}>Leave Mission</button></td>)}
+        ? (<td><button type="button" title="Join Mission" onClick={() => handleJoinMission(missionId)} className="app_mission-button app_mission-button_join">Join Mission</button></td>)
+        : (<td><button type="button" title="Leave Mission" onClick={() => handleLeaveMission(missionId)} className="app_mission-button app_mission-button_leave">Leave Mission</button></td>)}
     </tr>
   );
 }
