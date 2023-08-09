@@ -55,15 +55,6 @@
   cursor: pointer;
 }
 
-.reservation-info button[type="button"][disabled] {
-  background-color: var(--color-blue-2);
-  color: white;
-  padding: 4px 8px;
-  border: none;
-  border-radius: 4px;
-  cursor: not-allowed;
-}
-
 .rocket-info button[type="submit"] {
   background-color: rgb(255, 255, 255);
   color: var(--color-grey-2);
@@ -72,4 +63,14 @@
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.reserved-span {
+  color: white;
+  width: 50px;
+  background: rgb(16, 182, 160);
+  font-size: 12px;
+  padding: 2px 3px;
+  border-radius: 5px;
+  margin-bottom: 2px;
 }
