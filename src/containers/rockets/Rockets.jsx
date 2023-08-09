@@ -25,7 +25,6 @@ function Rockets() {
 
   return (
     <div className="rockets-container">
-      <h2>Rockets</h2>
       {loading ? (
         <p>Loading...</p>
       ) : (
