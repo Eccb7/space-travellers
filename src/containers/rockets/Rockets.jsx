@@ -10,8 +10,10 @@ function Rockets() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchData());
-  }, [dispatch]);
+    if (rockets.length === 0) {
+      dispatch(fetchData());
+    }
+  }, [dispatch, rockets.length]);
 
   const handleReservation = (rocketId, reserved) => {
     if (reserved) {
