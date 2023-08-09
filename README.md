@@ -2,8 +2,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-  <h2><b> Book Store</b></h3>
+  <img src="./src/assets/planet.png" alt="logo" width="140"  height="140" />
+  <h2><b> Space Travellers' Hub</b></h3>
 
 </div>
 
@@ -31,8 +31,7 @@
 
 # 📖 book-store <a name="about-project"></a>
 
-**book-store** is a repository.In this project, I have restructured our Awesome books app code. The goal was to show my react.js skills.
-
+**"Space Travellers: Explore Rockets and Missions"** is a Redux-powered web app that enables users to discover SpaceX rockets, join missions, and manage their selections in a personalized profile section. Built with React, it offers an immersive space exploration journey.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -40,16 +39,16 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-    <li><a href="https://www.w3schools.com/css/">css</a></li>
+    <li><a href="https://react.dev//">React.js</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
     <li><a href="https://www.w3schools.com/js/">Javascript</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Form backend service</summary>
+  <summary>Backend service</summary>
   <ul>
-    <li><a href="https://formspree.io/html/">formspree</a></li>
+    <li><a href="https://nodejs.org/en/">Node js</a></li>
   </ul>
 </details>
 
@@ -65,7 +64,7 @@
 
 <!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-<!-- - [Live Demo Link](https://github.com/Eccb7/book-stores/) -->
+<!-- - [Live Demo Link](https://github.com/Eccb7/space-travellers/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +83,7 @@ To run this project, you need the following:
 Clone this repository to your desired folder:
 
 ```bash
-git clone https://github.com/Eccb7/book-store.git
+git clone https://github.com/Eccb7/space-travellers.git
 ```
 
 ### Install
@@ -134,7 +133,12 @@ npm start
 
 - GitHub: [@Eccb7](https://github.com/Eccb7)
 - Twitter: [@briton_otieno4](https://twitter.com/briton_otieno4)
-- LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno-ba6591244)
+- LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno)
+
+👤 **Nelly Telli**
+  - Twitter: [@nelly_telli](https://twitter.com/nelly_telli)
+  - LinkedIn: [Nelly T.](https://www.linkedin.com/in/nelly-t-330414266/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +147,7 @@ npm start
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add mobile version**
-- [ ] **Add Model**
+- [ ] **Add Dragons**
 <!-- - [ ] **Navigation to full website** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +158,7 @@ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Eccb7/book-store/issues).
+Feel free to check the [issues page](https://github.com/Eccb7/space-travellers/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
