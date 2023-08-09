@@ -4,7 +4,7 @@ import './profile.css';
 import { MissionProfile } from '../../components';
 
 function Profile() {
-  const rockets = useSelector((state) => state.rockets.Data.filter((rocket) => rocket.reserved));
+  const rockets = useSelector(selectReservedRockets);
   const missions = useSelector((state) => state.mission.missions
     .filter((mission) => mission.reserved));
 
