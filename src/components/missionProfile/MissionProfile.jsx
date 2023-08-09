@@ -4,8 +4,8 @@ import './missionProfile.css';
 
 function MissionProfile({ missionName }) {
   return (
-    <tr>
-      <td className="app_mission-title">{missionName}</td>
+    <tr className="app_mission_profile-row">
+      <td className="app_mission_profile-title">{missionName}</td>
     </tr>
   );
 }

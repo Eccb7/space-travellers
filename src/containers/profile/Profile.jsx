@@ -25,12 +25,12 @@ function Profile() {
           </tbody>
         </table>
       )}
-      {missions.length === 0 ? (<p>No mission reserved yet!</p>)
+      {missions.length === 0 ? (<p>no missions joined</p>)
         : (
           <table className="holderTable">
             <thead>
-              <tr>
-                <th>My Missions</th>
+              <tr className="app_mission_profile-row">
+                <th className="app_mission_profile-column">My Missions</th>
               </tr>
             </thead>
             <tbody>
