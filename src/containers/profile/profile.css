@@ -8,7 +8,7 @@
 }
 
 .holderTable {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
   margin-top: 20px;
 }
@@ -20,4 +20,6 @@
 
 .rocketdata {
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
