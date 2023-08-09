@@ -1,2 +1,2 @@
+export { default as MissionProfile } from './missionProfile/MissionProfile';
 export { default as MissionFeature } from './missionFeature/MissionFeature';
-export { default as RocketFeature } from './rocketFeature/RocketFeature';
