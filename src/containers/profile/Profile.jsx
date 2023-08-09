@@ -48,7 +48,11 @@ function Profile() {
             <tbody>
               {
                 missions.map((mission) => (
-                  <MissionProfile key={mission.mission_id} missionName={mission.mission_name} />
+                  <MissionProfile
+                    key={mission.mission_id}
+                    missionName={mission.mission_name}
+                    missionMore={mission.wikipedia}
+                  />
                 ))
               }
             </tbody>
