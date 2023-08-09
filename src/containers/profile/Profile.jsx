@@ -1,9 +1,17 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { createSelector } from 'reselect';
 import './profile.css';
 
+// Create a memoized selector using createSelector
+const selectReservedRockets = createSelector(
+  (state) => state.rockets.Data,
+  (rockets) => rockets.filter((rocket) => rocket.reserved),
+);
+
 function Profile() {
-  const rockets = useSelector((state) => state.rockets.Data.filter((rocket) => rocket.reserved));
+  // Use the memoized selector to get reserved rockets
+  const rockets = useSelector(selectReservedRockets);
 
   return (
     <div className="my-profile-container">
@@ -16,7 +24,10 @@ function Profile() {
           <tbody>
             {rockets.map((rocket) => (
               <tr key={rocket.id} className="rocketrow">
-                <td className="rocketdata">{rocket.name}</td>
+                <td className="rocketdata">
+                  {rocket.name}
+                  <a href={rocket.wikipedia} target="_blank" rel="noreferrer">Read more</a>
+                </td>
               </tr>
             ))}
           </tbody>
