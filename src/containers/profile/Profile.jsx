@@ -1,19 +1,20 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { createSelector } from 'reselect';
 import './profile.css';
 import { MissionProfile } from '../../components';
 
-// Create a memoized selector for reserved rockets
-const selectReservedRockets = createSelector(
-  (state) => state.rockets.Data,
-  (rockets) => rockets.filter((rocket) => rocket.reserved)
+import { selectReservedRockets } from '../../redux/rockets/rocketsSlice';
+import { createSelector } from 'reselect';
+
+// Create a memoized selector for reserved missions
+const selectReservedMissions = createSelector(
+  (state) => state.mission.missions,
+  (missions) => missions.filter((mission) => mission.reserved)
 );
 
 function Profile() {
   const rockets = useSelector(selectReservedRockets);
-  const missions = useSelector((state) => state.mission.missions
-    .filter((mission) => mission.reserved));
+  const missions = useSelector(selectReservedMissions);
 
   return (
     <div className="my-profile-container">
@@ -32,7 +33,6 @@ function Profile() {
           </tbody>
         </table>
       )}
-      <div className="sectionTitle">My Missions</div>
       {missions.length === 0 ? (<p>No missions joined</p>)
         : (
           <table className="holderTable">
