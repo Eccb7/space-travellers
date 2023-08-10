@@ -1,0 +1,41 @@
+.app_mission-title {
+  font-weight: 600;
+  display: flex;
+  border: none !important;
+  border-top: 1px solid var(--color-grey-2) !important;
+}
+
+.app_mission-status {
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.app_mission-status_member {
+  background-color: var(--color-blue-2);
+}
+
+.app_mission-status_nomember {
+  background-color: var(--color-darkgrey);
+}
+
+.app_mission-button {
+  padding: 0.7rem;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 115px;
+  font-size: 13px;
+}
+
+.app_mission-button_join {
+  border-color: var(--color-grey-2);
+  color: var(--color-grey-2);
+}
+
+.app_mission-button_leave {
+  border-color: var(--color-red);
+  color: var(--color-red);
+}
