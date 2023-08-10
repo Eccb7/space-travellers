@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionFeature should render MissionFeature correctly when missionReserved is false 1`] = `
+<div>
+  <tr>
+    <td
+      class="app_mission-title"
+    >
+      Mission 1
+    </td>
+    <td>
+      Description for Mission 1
+    </td>
+    <td>
+      <span
+        class="app_mission-status app_mission-status_nomember"
+      >
+        NOT A MEMBER
+      </span>
+    </td>
+    <td>
+      <button
+        class="app_mission-button app_mission-button_join"
+        title="Join Mission"
+        type="button"
+      >
+        Join Mission
+      </button>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`should render MissionFeature correctly when missionReserved is false 1`] = `
+<div>
+  <tr>
+    <td
+      class="app_mission-title"
+    >
+      Mission 1
+    </td>
+    <td>
+      Description for Mission 1
+    </td>
+    <td>
+      <span
+        class="app_mission-status app_mission-status_nomember"
+      >
+        NOT A MEMBER
+      </span>
+    </td>
+    <td>
+      <button
+        class="app_mission-button app_mission-button_join"
+        title="Join Mission"
+        type="button"
+      >
+        Join Mission
+      </button>
+    </td>
+  </tr>
+</div>
+`;
