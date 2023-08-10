@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="my-profile-container"
+  >
+    <div>
+      <span
+        class="sectionTitle"
+      >
+        My Rockets
+      </span>
+      <p>
+        No rockets reserved yet!
+      </p>
+    </div>
+    <div>
+      <span
+        class="sectionTitle"
+      >
+        My Missions
+      </span>
+      <p>
+        No missions joined
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;
