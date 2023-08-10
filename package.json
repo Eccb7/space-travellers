@@ -53,7 +53,10 @@
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
     "@testing-library/jest-dom": "^5.17.0",
+<<<<<<< tests-missions
     "axios-mock-adapter": "^1.21.5",
+=======
+>>>>>>> tests
     "babel-jest": "^29.6.2",
     "eslint": "^8.46.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -61,6 +64,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "redux-mock-store": "^1.5.4",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
