@@ -3,8 +3,7 @@
 
 <div align="center">
   <img src="./src/assets/planet.png" alt="logo" width="140"  height="140" />
-  <h2><b> Space Travellers' Hub</b></h3>
-
+  <h2><b>Space Travellers' Hub</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -12,17 +11,17 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Built With](#built-with)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Author](#author)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Install](#install)
+- [Run tests](#run-tests)
+- [Usage](#usage)
+- [👥 Authors](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -31,36 +30,28 @@
 
 # 📖 Space Travellers <a name="about-project"></a>
 
-**"Space Travellers: Explore Rockets and Missions"** is a Redux-powered web app that enables users to discover SpaceX rockets, join missions, and manage their selections in a personalized profile section. Built with React, it offers an immersive space exploration journey.
+Welcome to **Space Travellers' Hub**, a captivating Simple Page Application built with React and Redux, offering real-time data from the SpaceX API. Embark on an exciting journey of space exploration, where you can explore Rockets, Missions, and Dragons right at your fingertips.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://react.dev//">React.js</a></li>
-    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
-    <li><a href="https://www.w3schools.com/js/">Javascript</a></li>
-  </ul>
-</details>
+- **React.js**: Craft a dynamic and responsive user interface with the industry-leading React library.
+- **Redux**: Elevate your state management with Redux for consistent and seamless data flow.
+- **SpaceX API Integration**: Real-time data straight from the source for up-to-date space information.
 
-<details>
-  <summary>Backend service</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en/">Node js</a></li>
-  </ul>
-</details>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Demo of Linters**
-- **Demo of Space Travellers**
+1. **Intuitive Interface**: Immerse yourself in a user-friendly design that enhances your space exploration experience.
+2. **Dynamic Data**: Seamlessly connect with the SpaceX API to access the latest data on Rockets, Missions, and Dragons.
+3. **Reserve Rockets**: Secure your spot on upcoming missions with the click of a button.
+4. **Personalized Profile**: Manage your reserved Rockets, Missions, and Dragons in the "My Profile" section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-LIVE DEMO -->
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -69,55 +60,44 @@ LIVE DEMO -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
+Get ready to explore the cosmos with these steps:
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
-To run this project, you need the following:
+Ensure you have a web browser 🌐, Git 🐙, and a code editor 👨‍💻.
 
-- 🌐 Web browser
-- 🐙 Git
-- 👨‍💻 Code editor
+### Setup <a name="setup"></a>
 
-### Setup
-
-Clone this repository to your desired folder:
+Use `git clone` to get your local copy of the project.
 
 ```bash
 git clone https://github.com/Eccb7/space-travellers.git
 ```
 
-### Install
+### Install <a name="install"></a>
 
-To install all dependencies, run the following command:
+ Run `npm install` to set up the required packages.
 
 ```bash
 npm install
 ```
 
-### Run Tests
+### Run Tests <a name="run-tests"></a>
 
-To run tests, use the following commands:
+Track errors with the following command:
 
-- To track CSS linter errors, run:
+- Track CSS linter errors, run:
 ```bash
-npx stylelint "**/*.{css,scss}"
+npx stylelint "**/*.{css,scss}" --fix
 ```
-- To track JavaScript linter errors, run:
+- Track JavaScript linter errors, run:
 ```bash
-npx eslint "**/*.{js,jsx}"
-```
-
-### Build
-
-To build the project, run the following command:
-
-```bash
-npm run build
+npx eslint "**/*.{js,jsx}" --fix
 ```
 
-### Webpack Development Server
+### Build <a name="usage"></a>
 
-To run the webpack development server, execute the following command:
+Launch the app with `npm start` and start your space journey!
 
 ```bash
 npm start
@@ -127,17 +107,12 @@ npm start
 
 <!-- AUTHOR -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="author"></a>
 
-👤 **Ojwang Briton**
+Meet the developers behind Space Travellers' Hub:
 
-- GitHub: [@Eccb7](https://github.com/Eccb7)
-- Twitter: [@briton_otieno4](https://twitter.com/briton_otieno4)
-- LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno)
-
-👤 **Nelly Telli**
-  - Twitter: [@nelly_telli](https://twitter.com/nelly_telli)
-  - LinkedIn: [Nelly T.](https://www.linkedin.com/in/nelly-t-330414266/)
+- **Ojwang Briton**: [GitHub](https://github.com/Eccb7), [Twitter](https://twitter.com/briton_otieno4), [LinkedIn](https://linkedin.com/in/briton-otieno)
+- **Nelly Telli**: [Twitter](https://twitter.com/nelly_telli), [LinkedIn](https://www.linkedin.com/in/nelly-t-330414266/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,10 +120,9 @@ npm start
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add mobile version**
-- [ ] **Add Dragons**
-<!-- - [ ] **Navigation to full website** -->
+Stay tuned for exciting updates, including:
+- **a mobile version**
+- and **Dragons integration**!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,9 +130,7 @@ npm start
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Eccb7/space-travellers/issues).
+Your contributions can make a difference! Feel free to open an [issue](https://github.com/Eccb7/space-travellers/issues) for suggestions, ideas, or bug reports.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +138,7 @@ Feel free to check the [issues page](https://github.com/Eccb7/space-travellers/i
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give ⭐️
+If you find Space Travellers' Hub valuable, consider supporting us by starring ⭐️ the project, forking 🍴 🎣, or sharing 🗺️ with others.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,7 +146,8 @@ If you like this project give ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my teammembers
+We extend our gratitude to [Microverse](https://github.com/microverseinc), reviewers, and collaborators for their invaluable contributions.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
