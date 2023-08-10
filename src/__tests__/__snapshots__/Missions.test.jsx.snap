@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <table
+    class="app_mission-table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Mission
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="app_mission-title"
+        >
+          Mission 1
+        </td>
+        <td>
+          Mission 1 description
+        </td>
+        <td>
+          <span
+            class="app_mission-status app_mission-status_nomember"
+          >
+            NOT A MEMBER
+          </span>
+        </td>
+        <td>
+          <button
+            class="app_mission-button app_mission-button_join"
+            title="Join Mission"
+            type="button"
+          >
+            Join Mission
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="app_mission-title"
+        >
+          Mission 2
+        </td>
+        <td>
+          Mission 2 description
+        </td>
+        <td>
+          <span
+            class="app_mission-status app_mission-status_member"
+          >
+            Active Member
+          </span>
+        </td>
+        <td>
+          <button
+            class="app_mission-button app_mission-button_leave"
+            title="Leave Mission"
+            type="button"
+          >
+            Leave Mission
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`should render missions correctly 1`] = `
+<div>
+  <table
+    class="app_mission-table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Mission
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="app_mission-title"
+        >
+          Mission 1
+        </td>
+        <td>
+          Mission 1 description
+        </td>
+        <td>
+          <span
+            class="app_mission-status app_mission-status_nomember"
+          >
+            NOT A MEMBER
+          </span>
+        </td>
+        <td>
+          <button
+            class="app_mission-button app_mission-button_join"
+            title="Join Mission"
+            type="button"
+          >
+            Join Mission
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
