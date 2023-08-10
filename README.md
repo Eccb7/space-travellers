@@ -14,7 +14,7 @@
 - [🛠 Built With](#built-with)
 - [Tech Stack](#tech-stack)
 - [Key Features](#key-features)
-<!-- - [🚀 Live Demo](#live-demo) -->
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
@@ -51,13 +51,13 @@ Welcome to **Space Travellers' Hub**, a captivating Simple Page Application buil
 4. **Personalized Profile**: Manage your reserved Rockets, Missions, and Dragons in the "My Profile" section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LIVE DEMO -->
+LIVE DEMO
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://github.com/Eccb7/space-travellers/) -->
+- [Live Demo Link](https://space-travellers-wheat.vercel.app/)
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 Get ready to explore the cosmos with these steps:
