@@ -15,7 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -60,11 +60,11 @@
 - **Demo of Space Travellers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LIVE DEMO -->
+LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://github.com/Eccb7/space-travellers/) -->
+- [Live Demo Link](https://space-travellers-wheat.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
